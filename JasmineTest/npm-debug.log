@@ -1,0 +1,489 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\NodeJS\\node.exe',
+1 verbose cli   'C:\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose readDependencies loading dependencies from C:\GitRepo\JasmineTest\package.json
+5 warn package.json starter-node-angular@ No description
+6 warn package.json starter-node-angular@ No repository field.
+7 warn package.json starter-node-angular@ No README data
+8 warn package.json starter-node-angular@ No license field.
+9 verbose install where, deps [ 'C:\\GitRepo\\JasmineTest',
+9 verbose install   [ 'angular',
+9 verbose install     'angular-mocks',
+9 verbose install     'jasmine-core',
+9 verbose install     'karma',
+9 verbose install     'karma-chrome-launcher',
+9 verbose install     'karma-jasmine',
+9 verbose install     'karma-junit-reporter' ] ]
+10 verbose install where, peers [ 'C:\\GitRepo\\JasmineTest', [] ]
+11 verbose installManyTop reading for lifecycle C:\GitRepo\JasmineTest\package.json
+12 info preinstall starter-node-angular@
+13 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\angular\package.json
+14 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\angular-mocks\package.json
+15 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\angular-route\package.json
+16 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\body-parser\package.json
+17 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\browserify\package.json
+18 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\bson\package.json
+19 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\bson-ext\package.json
+20 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\express\package.json
+21 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\gulp\package.json
+22 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\gulp-clean\package.json
+23 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\gulp-config\package.json
+24 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\jasmine-core\package.json
+25 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\karma\package.json
+26 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\karma-chrome-launcher\package.json
+27 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\karma-coffee-preprocessor\package.json
+28 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\karma-firefox-launcher\package.json
+29 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\karma-html2js-preprocessor\package.json
+30 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\karma-htmlfile-reporter\package.json
+31 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\karma-jasmine\package.json
+32 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\karma-junit-reporter\package.json
+33 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\karma-phantomjs-launcher\package.json
+34 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\karma-requirejs\package.json
+35 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\karma-script-launcher\package.json
+36 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\method-override\package.json
+37 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\mongoose\package.json
+38 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\phantomjs-prebuilt\package.json
+39 verbose installManyTop reading scoped package data from C:\GitRepo\JasmineTest\node_modules\requirejs\package.json
+40 info package.json karma-phantomjs-launcher@0.1.4 No README data
+41 info package.json bson-ext@0.1.13 No license field.
+42 info package.json karma@0.10.10 No license field.
+43 info package.json mongoose@3.8.23 No license field.
+44 verbose readDependencies loading dependencies from C:\GitRepo\JasmineTest\package.json
+45 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\angular\package.json
+46 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\angular-mocks\package.json
+47 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\angular-route\package.json
+48 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\body-parser\package.json
+49 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\browserify\package.json
+50 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\bson\package.json
+51 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\bson-ext\package.json
+52 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\express\package.json
+53 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\gulp\package.json
+54 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\gulp-clean\package.json
+55 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\gulp-config\package.json
+56 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\jasmine-core\package.json
+57 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\karma\package.json
+58 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\karma-chrome-launcher\package.json
+59 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\karma-coffee-preprocessor\package.json
+60 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\karma-firefox-launcher\package.json
+61 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\karma-html2js-preprocessor\package.json
+62 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\karma-htmlfile-reporter\package.json
+63 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\karma-jasmine\package.json
+64 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\karma-junit-reporter\package.json
+65 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\karma-phantomjs-launcher\package.json
+66 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\karma-requirejs\package.json
+67 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\karma-script-launcher\package.json
+68 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\method-override\package.json
+69 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\mongoose\package.json
+70 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\phantomjs-prebuilt\package.json
+71 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\requirejs\package.json
+72 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\.bin\browserify\package.json
+73 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\.bin\browserify.cmd\package.json
+74 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\.bin\gulp\package.json
+75 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\.bin\gulp.cmd\package.json
+76 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\.bin\karma\package.json
+77 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\.bin\karma.cmd\package.json
+78 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\.bin\phantomjs\package.json
+79 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\.bin\phantomjs.cmd\package.json
+80 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\.bin\r.js\package.json
+81 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\.bin\r.js.cmd\package.json
+82 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\.bin\r_js\package.json
+83 verbose targetResolver reading package data from C:\GitRepo\JasmineTest\node_modules\.bin\r_js.cmd\package.json
+84 verbose already installed skipping karma@~0.10 C:\GitRepo\JasmineTest
+85 verbose already installed skipping karma-chrome-launcher@^0.2.3 C:\GitRepo\JasmineTest
+86 verbose already installed skipping karma-jasmine@^0.3.8 C:\GitRepo\JasmineTest
+87 verbose already installed skipping karma-junit-reporter@~0.4.2 C:\GitRepo\JasmineTest
+88 verbose already installed skipping angular@^1.5.3 C:\GitRepo\JasmineTest
+89 verbose already installed skipping angular-mocks@^1.5.3 C:\GitRepo\JasmineTest
+90 verbose already installed skipping jasmine-core@^2.4.1 C:\GitRepo\JasmineTest
+91 silly install resolved []
+92 info build C:\GitRepo\JasmineTest
+93 info linkStuff starter-node-angular@
+94 silly linkStuff starter-node-angular@ has C:\GitRepo as its parent node_modules
+95 verbose linkBins starter-node-angular@
+96 verbose linkMans starter-node-angular@
+97 verbose rebuildBundles starter-node-angular@
+98 verbose rebuildBundles [ '.bin',
+98 verbose rebuildBundles   'angular',
+98 verbose rebuildBundles   'angular-mocks',
+98 verbose rebuildBundles   'angular-route',
+98 verbose rebuildBundles   'body-parser',
+98 verbose rebuildBundles   'browserify',
+98 verbose rebuildBundles   'bson',
+98 verbose rebuildBundles   'bson-ext',
+98 verbose rebuildBundles   'express',
+98 verbose rebuildBundles   'gulp',
+98 verbose rebuildBundles   'gulp-clean',
+98 verbose rebuildBundles   'gulp-config',
+98 verbose rebuildBundles   'jasmine-core',
+98 verbose rebuildBundles   'karma',
+98 verbose rebuildBundles   'karma-chrome-launcher',
+98 verbose rebuildBundles   'karma-coffee-preprocessor',
+98 verbose rebuildBundles   'karma-firefox-launcher',
+98 verbose rebuildBundles   'karma-html2js-preprocessor',
+98 verbose rebuildBundles   'karma-htmlfile-reporter',
+98 verbose rebuildBundles   'karma-jasmine',
+98 verbose rebuildBundles   'karma-junit-reporter',
+98 verbose rebuildBundles   'karma-phantomjs-launcher',
+98 verbose rebuildBundles   'karma-requirejs',
+98 verbose rebuildBundles   'karma-script-launcher',
+98 verbose rebuildBundles   'method-override',
+98 verbose rebuildBundles   'mongoose',
+98 verbose rebuildBundles   'phantomjs-prebuilt',
+98 verbose rebuildBundles   'requirejs' ]
+99 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\angular-route
+100 info build C:\GitRepo\JasmineTest\node_modules\angular-route
+101 info preinstall angular-route@1.5.3
+102 info linkStuff angular-route@1.5.3
+103 silly linkStuff angular-route@1.5.3 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+104 verbose linkBins angular-route@1.5.3
+105 verbose linkMans angular-route@1.5.3
+106 verbose rebuildBundles angular-route@1.5.3
+107 info install angular-route@1.5.3
+108 info postinstall angular-route@1.5.3
+109 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\body-parser
+110 info build C:\GitRepo\JasmineTest\node_modules\body-parser
+111 info preinstall body-parser@1.4.3
+112 info linkStuff body-parser@1.4.3
+113 silly linkStuff body-parser@1.4.3 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+114 verbose linkBins body-parser@1.4.3
+115 verbose linkMans body-parser@1.4.3
+116 verbose rebuildBundles body-parser@1.4.3
+117 verbose rebuildBundles [ 'bytes',
+117 verbose rebuildBundles   'depd',
+117 verbose rebuildBundles   'iconv-lite',
+117 verbose rebuildBundles   'media-typer',
+117 verbose rebuildBundles   'qs',
+117 verbose rebuildBundles   'raw-body',
+117 verbose rebuildBundles   'type-is' ]
+118 info install body-parser@1.4.3
+119 info postinstall body-parser@1.4.3
+120 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\browserify
+121 info build C:\GitRepo\JasmineTest\node_modules\browserify
+122 info preinstall browserify@13.0.0
+123 info linkStuff browserify@13.0.0
+124 silly linkStuff browserify@13.0.0 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+125 verbose linkBins browserify@13.0.0
+126 verbose link bins [ { browserify: 'bin/cmd.js' },
+126 verbose link bins   'C:\\GitRepo\\JasmineTest\\node_modules\\.bin',
+126 verbose link bins   false ]
+127 verbose linkMans browserify@13.0.0
+128 verbose rebuildBundles browserify@13.0.0
+129 verbose rebuildBundles [ '.bin',
+129 verbose rebuildBundles   'JSONStream',
+129 verbose rebuildBundles   'assert',
+129 verbose rebuildBundles   'browser-pack',
+129 verbose rebuildBundles   'browser-resolve',
+129 verbose rebuildBundles   'browserify-zlib',
+129 verbose rebuildBundles   'buffer',
+129 verbose rebuildBundles   'concat-stream',
+129 verbose rebuildBundles   'console-browserify',
+129 verbose rebuildBundles   'constants-browserify',
+129 verbose rebuildBundles   'crypto-browserify',
+129 verbose rebuildBundles   'defined',
+129 verbose rebuildBundles   'deps-sort',
+129 verbose rebuildBundles   'domain-browser',
+129 verbose rebuildBundles   'duplexer2',
+129 verbose rebuildBundles   'events',
+129 verbose rebuildBundles   'glob',
+129 verbose rebuildBundles   'has',
+129 verbose rebuildBundles   'htmlescape',
+129 verbose rebuildBundles   'https-browserify',
+129 verbose rebuildBundles   'inherits',
+129 verbose rebuildBundles   'insert-module-globals',
+129 verbose rebuildBundles   'isarray',
+129 verbose rebuildBundles   'labeled-stream-splicer',
+129 verbose rebuildBundles   'module-deps',
+129 verbose rebuildBundles   'os-browserify',
+129 verbose rebuildBundles   'parents',
+129 verbose rebuildBundles   'path-browserify',
+129 verbose rebuildBundles   'process',
+129 verbose rebuildBundles   'punycode',
+129 verbose rebuildBundles   'querystring-es3',
+129 verbose rebuildBundles   'read-only-stream',
+129 verbose rebuildBundles   'readable-stream',
+129 verbose rebuildBundles   'resolve',
+129 verbose rebuildBundles   'shasum',
+129 verbose rebuildBundles   'shell-quote',
+129 verbose rebuildBundles   'stream-browserify',
+129 verbose rebuildBundles   'stream-http',
+129 verbose rebuildBundles   'string_decoder',
+129 verbose rebuildBundles   'subarg',
+129 verbose rebuildBundles   'syntax-error',
+129 verbose rebuildBundles   'through2',
+129 verbose rebuildBundles   'timers-browserify',
+129 verbose rebuildBundles   'tty-browserify',
+129 verbose rebuildBundles   'url',
+129 verbose rebuildBundles   'util',
+129 verbose rebuildBundles   'vm-browserify',
+129 verbose rebuildBundles   'xtend' ]
+130 info install browserify@13.0.0
+131 info postinstall browserify@13.0.0
+132 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\bson
+133 info build C:\GitRepo\JasmineTest\node_modules\bson
+134 info preinstall bson@0.4.22
+135 info linkStuff bson@0.4.22
+136 silly linkStuff bson@0.4.22 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+137 verbose linkBins bson@0.4.22
+138 verbose linkMans bson@0.4.22
+139 verbose rebuildBundles bson@0.4.22
+140 info install bson@0.4.22
+141 info postinstall bson@0.4.22
+142 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\bson-ext
+143 info build C:\GitRepo\JasmineTest\node_modules\bson-ext
+144 info preinstall bson-ext@0.1.13
+145 info linkStuff bson-ext@0.1.13
+146 silly linkStuff bson-ext@0.1.13 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+147 verbose linkBins bson-ext@0.1.13
+148 verbose linkMans bson-ext@0.1.13
+149 verbose rebuildBundles bson-ext@0.1.13
+150 verbose rebuildBundles [ 'bindings', 'nan' ]
+151 info install bson-ext@0.1.13
+152 verbose unsafe-perm in lifecycle true
+153 info postinstall bson-ext@0.1.13
+154 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\express
+155 info build C:\GitRepo\JasmineTest\node_modules\express
+156 info preinstall express@4.5.1
+157 info linkStuff express@4.5.1
+158 silly linkStuff express@4.5.1 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+159 verbose linkBins express@4.5.1
+160 verbose linkMans express@4.5.1
+161 verbose rebuildBundles express@4.5.1
+162 verbose rebuildBundles [ 'accepts',
+162 verbose rebuildBundles   'buffer-crc32',
+162 verbose rebuildBundles   'cookie',
+162 verbose rebuildBundles   'cookie-signature',
+162 verbose rebuildBundles   'debug',
+162 verbose rebuildBundles   'depd',
+162 verbose rebuildBundles   'escape-html',
+162 verbose rebuildBundles   'finalhandler',
+162 verbose rebuildBundles   'fresh',
+162 verbose rebuildBundles   'media-typer',
+162 verbose rebuildBundles   'merge-descriptors',
+162 verbose rebuildBundles   'methods',
+162 verbose rebuildBundles   'parseurl',
+162 verbose rebuildBundles   'path-to-regexp',
+162 verbose rebuildBundles   'proxy-addr',
+162 verbose rebuildBundles   'qs',
+162 verbose rebuildBundles   'range-parser',
+162 verbose rebuildBundles   'send',
+162 verbose rebuildBundles   'serve-static',
+162 verbose rebuildBundles   'type-is',
+162 verbose rebuildBundles   'utils-merge',
+162 verbose rebuildBundles   'vary' ]
+163 info install express@4.5.1
+164 info postinstall express@4.5.1
+165 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\gulp
+166 info build C:\GitRepo\JasmineTest\node_modules\gulp
+167 info preinstall gulp@3.9.1
+168 info linkStuff gulp@3.9.1
+169 silly linkStuff gulp@3.9.1 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+170 verbose linkBins gulp@3.9.1
+171 verbose link bins [ { gulp: './bin/gulp.js' },
+171 verbose link bins   'C:\\GitRepo\\JasmineTest\\node_modules\\.bin',
+171 verbose link bins   false ]
+172 verbose linkMans gulp@3.9.1
+173 verbose rebuildBundles gulp@3.9.1
+174 verbose rebuildBundles [ '.bin',
+174 verbose rebuildBundles   'archy',
+174 verbose rebuildBundles   'chalk',
+174 verbose rebuildBundles   'deprecated',
+174 verbose rebuildBundles   'gulp-util',
+174 verbose rebuildBundles   'interpret',
+174 verbose rebuildBundles   'liftoff',
+174 verbose rebuildBundles   'minimist',
+174 verbose rebuildBundles   'orchestrator',
+174 verbose rebuildBundles   'pretty-hrtime',
+174 verbose rebuildBundles   'semver',
+174 verbose rebuildBundles   'tildify',
+174 verbose rebuildBundles   'v8flags',
+174 verbose rebuildBundles   'vinyl-fs' ]
+175 info install gulp@3.9.1
+176 info postinstall gulp@3.9.1
+177 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\gulp-clean
+178 info build C:\GitRepo\JasmineTest\node_modules\gulp-clean
+179 info preinstall gulp-clean@0.3.2
+180 info linkStuff gulp-clean@0.3.2
+181 silly linkStuff gulp-clean@0.3.2 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+182 verbose linkBins gulp-clean@0.3.2
+183 verbose linkMans gulp-clean@0.3.2
+184 verbose rebuildBundles gulp-clean@0.3.2
+185 verbose rebuildBundles [ '.bin', 'gulp-util', 'rimraf', 'through2' ]
+186 info install gulp-clean@0.3.2
+187 info postinstall gulp-clean@0.3.2
+188 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\gulp-config
+189 info build C:\GitRepo\JasmineTest\node_modules\gulp-config
+190 info preinstall gulp-config@0.3.0
+191 info linkStuff gulp-config@0.3.0
+192 silly linkStuff gulp-config@0.3.0 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+193 verbose linkBins gulp-config@0.3.0
+194 verbose linkMans gulp-config@0.3.0
+195 verbose rebuildBundles gulp-config@0.3.0
+196 verbose rebuildBundles [ 'configfiles', 'expander', 'glob', 'gulp-util', 'lodash' ]
+197 info install gulp-config@0.3.0
+198 info postinstall gulp-config@0.3.0
+199 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\karma-coffee-preprocessor
+200 info build C:\GitRepo\JasmineTest\node_modules\karma-coffee-preprocessor
+201 info preinstall karma-coffee-preprocessor@0.1.3
+202 info linkStuff karma-coffee-preprocessor@0.1.3
+203 silly linkStuff karma-coffee-preprocessor@0.1.3 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+204 verbose linkBins karma-coffee-preprocessor@0.1.3
+205 verbose linkMans karma-coffee-preprocessor@0.1.3
+206 verbose rebuildBundles karma-coffee-preprocessor@0.1.3
+207 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+208 info install karma-coffee-preprocessor@0.1.3
+209 info postinstall karma-coffee-preprocessor@0.1.3
+210 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\karma-firefox-launcher
+211 info build C:\GitRepo\JasmineTest\node_modules\karma-firefox-launcher
+212 info preinstall karma-firefox-launcher@0.1.7
+213 info linkStuff karma-firefox-launcher@0.1.7
+214 silly linkStuff karma-firefox-launcher@0.1.7 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+215 verbose linkBins karma-firefox-launcher@0.1.7
+216 verbose linkMans karma-firefox-launcher@0.1.7
+217 verbose rebuildBundles karma-firefox-launcher@0.1.7
+218 info install karma-firefox-launcher@0.1.7
+219 info postinstall karma-firefox-launcher@0.1.7
+220 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\karma-html2js-preprocessor
+221 info build C:\GitRepo\JasmineTest\node_modules\karma-html2js-preprocessor
+222 info preinstall karma-html2js-preprocessor@0.1.0
+223 info linkStuff karma-html2js-preprocessor@0.1.0
+224 silly linkStuff karma-html2js-preprocessor@0.1.0 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+225 verbose linkBins karma-html2js-preprocessor@0.1.0
+226 verbose linkMans karma-html2js-preprocessor@0.1.0
+227 verbose rebuildBundles karma-html2js-preprocessor@0.1.0
+228 info install karma-html2js-preprocessor@0.1.0
+229 info postinstall karma-html2js-preprocessor@0.1.0
+230 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\karma-htmlfile-reporter
+231 info build C:\GitRepo\JasmineTest\node_modules\karma-htmlfile-reporter
+232 info preinstall karma-htmlfile-reporter@0.2.2
+233 info linkStuff karma-htmlfile-reporter@0.2.2
+234 silly linkStuff karma-htmlfile-reporter@0.2.2 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+235 verbose linkBins karma-htmlfile-reporter@0.2.2
+236 verbose linkMans karma-htmlfile-reporter@0.2.2
+237 verbose rebuildBundles karma-htmlfile-reporter@0.2.2
+238 verbose rebuildBundles [ 'xmlbuilder' ]
+239 info install karma-htmlfile-reporter@0.2.2
+240 info postinstall karma-htmlfile-reporter@0.2.2
+241 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\karma-phantomjs-launcher
+242 info build C:\GitRepo\JasmineTest\node_modules\karma-phantomjs-launcher
+243 info preinstall karma-phantomjs-launcher@0.1.4
+244 info linkStuff karma-phantomjs-launcher@0.1.4
+245 silly linkStuff karma-phantomjs-launcher@0.1.4 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+246 verbose linkBins karma-phantomjs-launcher@0.1.4
+247 verbose linkMans karma-phantomjs-launcher@0.1.4
+248 verbose rebuildBundles karma-phantomjs-launcher@0.1.4
+249 verbose rebuildBundles [ '.bin', 'phantomjs' ]
+250 info install karma-phantomjs-launcher@0.1.4
+251 info postinstall karma-phantomjs-launcher@0.1.4
+252 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\karma-requirejs
+253 info build C:\GitRepo\JasmineTest\node_modules\karma-requirejs
+254 info preinstall karma-requirejs@0.2.6
+255 info linkStuff karma-requirejs@0.2.6
+256 silly linkStuff karma-requirejs@0.2.6 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+257 verbose linkBins karma-requirejs@0.2.6
+258 verbose linkMans karma-requirejs@0.2.6
+259 verbose rebuildBundles karma-requirejs@0.2.6
+260 info install karma-requirejs@0.2.6
+261 info postinstall karma-requirejs@0.2.6
+262 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\karma-script-launcher
+263 info build C:\GitRepo\JasmineTest\node_modules\karma-script-launcher
+264 info preinstall karma-script-launcher@0.1.0
+265 info linkStuff karma-script-launcher@0.1.0
+266 silly linkStuff karma-script-launcher@0.1.0 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+267 verbose linkBins karma-script-launcher@0.1.0
+268 verbose linkMans karma-script-launcher@0.1.0
+269 verbose rebuildBundles karma-script-launcher@0.1.0
+270 info install karma-script-launcher@0.1.0
+271 info postinstall karma-script-launcher@0.1.0
+272 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\method-override
+273 info build C:\GitRepo\JasmineTest\node_modules\method-override
+274 info preinstall method-override@2.0.2
+275 info linkStuff method-override@2.0.2
+276 silly linkStuff method-override@2.0.2 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+277 verbose linkBins method-override@2.0.2
+278 verbose linkMans method-override@2.0.2
+279 verbose rebuildBundles method-override@2.0.2
+280 verbose rebuildBundles [ 'methods', 'parseurl', 'vary' ]
+281 info install method-override@2.0.2
+282 info postinstall method-override@2.0.2
+283 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\mongoose
+284 info build C:\GitRepo\JasmineTest\node_modules\mongoose
+285 info preinstall mongoose@3.8.23
+286 info linkStuff mongoose@3.8.23
+287 silly linkStuff mongoose@3.8.23 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+288 verbose linkBins mongoose@3.8.23
+289 verbose linkMans mongoose@3.8.23
+290 verbose rebuildBundles mongoose@3.8.23
+291 verbose rebuildBundles [ 'hooks',
+291 verbose rebuildBundles   'mongodb',
+291 verbose rebuildBundles   'mpath',
+291 verbose rebuildBundles   'mpromise',
+291 verbose rebuildBundles   'mquery',
+291 verbose rebuildBundles   'ms',
+291 verbose rebuildBundles   'muri',
+291 verbose rebuildBundles   'regexp-clone',
+291 verbose rebuildBundles   'sliced' ]
+292 info install mongoose@3.8.23
+293 info postinstall mongoose@3.8.23
+294 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\phantomjs-prebuilt
+295 info build C:\GitRepo\JasmineTest\node_modules\phantomjs-prebuilt
+296 info preinstall phantomjs-prebuilt@2.1.7
+297 info linkStuff phantomjs-prebuilt@2.1.7
+298 silly linkStuff phantomjs-prebuilt@2.1.7 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+299 verbose linkBins phantomjs-prebuilt@2.1.7
+300 verbose link bins [ { phantomjs: './bin/phantomjs' },
+300 verbose link bins   'C:\\GitRepo\\JasmineTest\\node_modules\\.bin',
+300 verbose link bins   false ]
+301 verbose linkMans phantomjs-prebuilt@2.1.7
+302 verbose rebuildBundles phantomjs-prebuilt@2.1.7
+303 verbose rebuildBundles [ '.bin',
+303 verbose rebuildBundles   'extract-zip',
+303 verbose rebuildBundles   'fs-extra',
+303 verbose rebuildBundles   'hasha',
+303 verbose rebuildBundles   'kew',
+303 verbose rebuildBundles   'progress',
+303 verbose rebuildBundles   'request',
+303 verbose rebuildBundles   'request-progress',
+303 verbose rebuildBundles   'which' ]
+304 info install phantomjs-prebuilt@2.1.7
+305 verbose unsafe-perm in lifecycle true
+306 info postinstall phantomjs-prebuilt@2.1.7
+307 verbose rebuild bundle C:\GitRepo\JasmineTest\node_modules\requirejs
+308 info build C:\GitRepo\JasmineTest\node_modules\requirejs
+309 info preinstall requirejs@2.2.0
+310 info linkStuff requirejs@2.2.0
+311 silly linkStuff requirejs@2.2.0 has C:\GitRepo\JasmineTest\node_modules as its parent node_modules
+312 verbose linkBins requirejs@2.2.0
+313 verbose link bins [ { 'r.js': './bin/r.js', r_js: './bin/r.js' },
+313 verbose link bins   'C:\\GitRepo\\JasmineTest\\node_modules\\.bin',
+313 verbose link bins   false ]
+314 verbose linkMans requirejs@2.2.0
+315 verbose rebuildBundles requirejs@2.2.0
+316 info install requirejs@2.2.0
+317 info postinstall requirejs@2.2.0
+318 info install starter-node-angular@
+319 info postinstall starter-node-angular@
+320 info prepublish starter-node-angular@
+321 verbose validateInstall loading C:\GitRepo\JasmineTest\package.json for validation
+322 verbose stack Error: The package karma-jasmine@0.3.8 does not satisfy its siblings' peerDependencies requirements!
+322 verbose stack     at C:\NodeJS\node_modules\npm\lib\install.js:125:32
+322 verbose stack     at C:\NodeJS\node_modules\npm\lib\install.js:268:7
+322 verbose stack     at C:\NodeJS\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+322 verbose stack     at C:\NodeJS\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+322 verbose stack     at cb (C:\NodeJS\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+322 verbose stack     at C:\NodeJS\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+322 verbose stack     at cb (C:\NodeJS\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+322 verbose stack     at C:\NodeJS\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+322 verbose stack     at cb (C:\NodeJS\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+322 verbose stack     at C:\NodeJS\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+323 verbose cwd C:\GitRepo\JasmineTest
+324 error Windows_NT 6.1.7601
+325 error argv "C:\\NodeJS\\node.exe" "C:\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js" "install"
+326 error node v4.4.0
+327 error npm  v2.14.20
+328 error code EPEERINVALID
+329 error peerinvalid The package karma-jasmine@0.3.8 does not satisfy its siblings' peerDependencies requirements!
+329 error peerinvalid Peer karma@0.10.10 wants karma-jasmine@~0.1.0
+330 verbose exit [ 1, true ]
